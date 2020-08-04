@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+span {
+  text-decoration-line: underline;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 15%;
+  border-color: #ffeadb;
+  border-width: 10px;
+  margin: 60px auto 60px auto;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #679b9b;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #679b9b;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9a76;
+}
+
+.food-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hike-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-picture {
+  width: 200px;
+  padding-top: 50px;
+}
+
+.top-container {
+  background-color: #ff9a76;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #f7c5a8;
+}
+
+.bottom-container {
+  background-color: #ffeadb;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #ff9a76 5%, #f7c5a8 100%);
+	background-color:#f7c5a8;
+	border-radius:28px;
+	border:1px solid #679b9b;
+	display:inline-block;
+	cursor:pointer;
+	color:#679b9b;
+  font-family: 'Montserrat', sans-serif;
+	font-size:24px;
+	padding:16px 31px;
+	text-decoration:none;
+  margin: 10px auto 50px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f7c5a8 5%, #ff9a76 100%);
+	background-color:#f7c5a8;
+  color: #679b9b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+}
